@@ -1,13 +1,8 @@
 count = 10 
 exit_number = 0
 
-while count < 11 do
-  puts count -= 1
-  break if  count == exit_number
-  puts "Happy New Year!"
-
-
+whilee count >= 1 do
+  puts count
+  count -= 1 
 end
-
-
-# Write your code here
+  puts "Happy New Year!"
